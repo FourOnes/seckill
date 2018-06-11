@@ -17,6 +17,7 @@
 		4A8215FD20CE4409005DB9ED /* MyUITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8215FB20CE4409005DB9ED /* MyUITableViewCell.xib */; };
 		4A82160220CE4ED2005DB9ED /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A82160120CE4ED2005DB9ED /* Product.m */; };
 		4A82160520CE5873005DB9ED /* TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A82160420CE5873005DB9ED /* TimerManager.m */; };
+		4A82160720CE7053005DB9ED /* Jun-11-2018 16-53-41.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A82160620CE7053005DB9ED /* Jun-11-2018 16-53-41.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		4A82160120CE4ED2005DB9ED /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		4A82160320CE5873005DB9ED /* TimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager.h; sourceTree = "<group>"; };
 		4A82160420CE5873005DB9ED /* TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerManager.m; sourceTree = "<group>"; };
+		4A82160620CE7053005DB9ED /* Jun-11-2018 16-53-41.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Jun-11-2018 16-53-41.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		4A8215E220CE40BD005DB9ED /* seckill */ = {
 			isa = PBXGroup;
 			children = (
+				4A82160620CE7053005DB9ED /* Jun-11-2018 16-53-41.gif */,
 				4A8215E320CE40BD005DB9ED /* AppDelegate.h */,
 				4A8215E420CE40BD005DB9ED /* AppDelegate.m */,
 				4A8215E620CE40BD005DB9ED /* ViewController.h */,
@@ -146,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A82160720CE7053005DB9ED /* Jun-11-2018 16-53-41.gif in Resources */,
 				4A8215F020CE40BF005DB9ED /* LaunchScreen.storyboard in Resources */,
 				4A8215FD20CE4409005DB9ED /* MyUITableViewCell.xib in Resources */,
 				4A8215ED20CE40BF005DB9ED /* Assets.xcassets in Resources */,

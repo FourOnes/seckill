@@ -45,4 +45,4 @@
     cell.product = self.products[indexPath.row];
     return cell;
 }
-@end
+@end 

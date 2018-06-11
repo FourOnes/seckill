@@ -21,7 +21,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    [self.goBtn setTitle:@"预定" forState:UIControlStateNormal];
+    [self.goBtn setTitle:@"ORDER" forState:UIControlStateNormal];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(timeNotify:) name:timerManagerNotify object:nil];
 }
 
@@ -44,7 +44,7 @@
 }
 
 - (IBAction)go:(id)sender {
-    NSLog(@"%@",[NSString stringWithFormat:@"预定成功了%@",self.product.name]);
+    NSLog(@"%@",[NSString stringWithFormat:@"ORDERED %@",self.product.name]);
 }
 
 -(void)timeNotify:(NSNotification *)sender {
