@@ -13,6 +13,10 @@
 		4A8215ED20CE40BF005DB9ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8215EC20CE40BF005DB9ED /* Assets.xcassets */; };
 		4A8215F020CE40BF005DB9ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8215EE20CE40BF005DB9ED /* LaunchScreen.storyboard */; };
 		4A8215F320CE40BF005DB9ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8215F220CE40BF005DB9ED /* main.m */; };
+		4A8215FC20CE4409005DB9ED /* MyUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8215FA20CE4409005DB9ED /* MyUITableViewCell.m */; };
+		4A8215FD20CE4409005DB9ED /* MyUITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8215FB20CE4409005DB9ED /* MyUITableViewCell.xib */; };
+		4A82160220CE4ED2005DB9ED /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A82160120CE4ED2005DB9ED /* Product.m */; };
+		4A82160520CE5873005DB9ED /* TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A82160420CE5873005DB9ED /* TimerManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		4A8215EF20CE40BF005DB9ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A8215F120CE40BF005DB9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8215F220CE40BF005DB9ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A8215F920CE4409005DB9ED /* MyUITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUITableViewCell.h; sourceTree = "<group>"; };
+		4A8215FA20CE4409005DB9ED /* MyUITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewCell.m; sourceTree = "<group>"; };
+		4A8215FB20CE4409005DB9ED /* MyUITableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyUITableViewCell.xib; sourceTree = "<group>"; };
+		4A82160020CE4ED2005DB9ED /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		4A82160120CE4ED2005DB9ED /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		4A82160320CE5873005DB9ED /* TimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager.h; sourceTree = "<group>"; };
+		4A82160420CE5873005DB9ED /* TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +78,13 @@
 				4A8215EE20CE40BF005DB9ED /* LaunchScreen.storyboard */,
 				4A8215F120CE40BF005DB9ED /* Info.plist */,
 				4A8215F220CE40BF005DB9ED /* main.m */,
+				4A8215F920CE4409005DB9ED /* MyUITableViewCell.h */,
+				4A8215FA20CE4409005DB9ED /* MyUITableViewCell.m */,
+				4A8215FB20CE4409005DB9ED /* MyUITableViewCell.xib */,
+				4A82160020CE4ED2005DB9ED /* Product.h */,
+				4A82160120CE4ED2005DB9ED /* Product.m */,
+				4A82160320CE5873005DB9ED /* TimerManager.h */,
+				4A82160420CE5873005DB9ED /* TimerManager.m */,
 			);
 			path = seckill;
 			sourceTree = "<group>";
@@ -129,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8215F020CE40BF005DB9ED /* LaunchScreen.storyboard in Resources */,
+				4A8215FD20CE4409005DB9ED /* MyUITableViewCell.xib in Resources */,
 				4A8215ED20CE40BF005DB9ED /* Assets.xcassets in Resources */,
 				4A8215EB20CE40BD005DB9ED /* Main.storyboard in Resources */,
 			);
@@ -142,8 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8215E820CE40BD005DB9ED /* ViewController.m in Sources */,
+				4A82160220CE4ED2005DB9ED /* Product.m in Sources */,
+				4A8215FC20CE4409005DB9ED /* MyUITableViewCell.m in Sources */,
 				4A8215F320CE40BF005DB9ED /* main.m in Sources */,
 				4A8215E520CE40BD005DB9ED /* AppDelegate.m in Sources */,
+				4A82160520CE5873005DB9ED /* TimerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
